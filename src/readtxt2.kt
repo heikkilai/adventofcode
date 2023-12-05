@@ -3,10 +3,10 @@ package main.kotlin.directDatastoreAccess
 import java.io.File
 
 fun main() {
-    deleteInvoices()
+    doStuff()
 }
 
-private fun deleteInvoices() {
+private fun doStuff() {
     var gameIds=0
     val gameCubes = mapOf(
         "red" to 12,
